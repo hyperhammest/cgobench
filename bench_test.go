@@ -43,3 +43,6 @@ func BenchmarkEmptyCall(b *testing.B) {
 func BenchmarkCgoCall(b *testing.B) {
 	pbench(b, CgoCall)
 }
+func BenchmarkCgoCall2(b *testing.B) {
+	pbench(b, CgoCall2)
+}
